@@ -59,7 +59,7 @@ export   function Home() {
               className="w-full h-full object-cover"
             />
 
-            {/* Overlay */}
+            
             <div className="absolute inset-0 bg-black/60 flex items-center">
               <div className="  px-20  space-y-4">
                 <h6 className="  font-bold bg-green-500/40 text-green-300 p-1.5 rounded-2xl inline text-white my-2">Premimum Quality Products</h6>
@@ -71,7 +71,7 @@ export   function Home() {
         ))}
       </div>
 
-      {/* Prev */}
+ 
       <button
         onClick={() => {
           prev();
@@ -82,7 +82,7 @@ export   function Home() {
         ❮
       </button>
 
-      {/* Next */}
+  
       <button
         onClick={() => {
           next();

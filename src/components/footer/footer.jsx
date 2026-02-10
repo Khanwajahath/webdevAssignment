@@ -14,7 +14,7 @@ export   function Footer() {
   return (
     <footer className="w-full" id="footer">
 
-      {/* CTA Strip */}
+    
       <div className="bg-gradient-to-r from-green-600 to-emerald-600 py-8">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
           <div>
@@ -32,11 +32,11 @@ export   function Footer() {
         </div>
       </div>
 
-      {/* Main Footer */}
+  
       <div className="bg-gradient-to-b from-[#0b1220] to-[#050b16] text-gray-300 pt-16">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 pb-12 border-b border-white/10">
 
-          {/* Brand */}
+         
           <div>
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 bg-green-600 text-white font-bold flex items-center justify-center rounded-lg">
@@ -68,7 +68,7 @@ export   function Footer() {
             </div>
           </div>
 
-          {/* Quick Links */}
+         
           <div>
             <h5 className="text-white font-semibold mb-4">Quick Links</h5>
             <ul className="space-y-2 text-sm">
@@ -80,7 +80,7 @@ export   function Footer() {
             </ul>
           </div>
 
-          {/* Products */}
+         
           <div>
             <h5 className="text-white font-semibold mb-4">Our Products</h5>
             <ul className="space-y-2 text-sm">
@@ -94,7 +94,7 @@ export   function Footer() {
             </ul>
           </div>
 
-          {/* Contact */}
+         
           <div>
             <h5 className="text-white font-semibold mb-4">Contact Us</h5>
 
@@ -120,7 +120,7 @@ export   function Footer() {
           </div>
         </div>
 
-        {/* Bottom Bar */}
+    
         <div className="max-w-7xl mx-auto px-6 py-6 flex flex-col md:flex-row items-center justify-between text-sm text-gray-400">
           <p>© 2026 Power Solutions Factory. All rights reserved.</p>
           <div className="flex gap-4">

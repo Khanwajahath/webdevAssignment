@@ -21,7 +21,7 @@ export   function Products() {
             key={product.id}
             className="group bg-white rounded-2xl shadow hover:shadow-xl transition overflow-hidden"
           >
-            {/* Image Section */}
+     
             <div className="relative h-56 overflow-hidden">
               <img
                 src={product.image}
@@ -29,10 +29,10 @@ export   function Products() {
                 className="h-full w-full object-cover transform transition duration-700 ease-out group-hover:scale-110"
               />
 
-              {/* Gradient Overlay */}
+           
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent" />
 
-              {/* Title + Description on Image */}
+              
               <div className="absolute bottom-4 left-4 right-4 text-white">
                 <h3 className="text-xl font-semibold">
                   {product.title}
@@ -43,7 +43,7 @@ export   function Products() {
               </div>
             </div>
 
-            {/* Content */}
+         
             <div className="p-3  ">
               <ul className="text-sm text-gray-800  ">
                 {product.items.map((item, idx) => (
@@ -54,7 +54,7 @@ export   function Products() {
                 ))}
               </ul>
 
-              {/* Tags */}
+         
               <div className="flex flex-wrap gap-2">
                 {product.tags.map((tag, idx) => (
                   <span
@@ -66,7 +66,7 @@ export   function Products() {
                 ))}
               </div>
 
-              {/* CTA */}
+             
               <button className="mt-4 w-full rounded bg-green-500 py-2 text-white font-semibold hover:bg-green-600 transition">
                 Get Best Price Now →
               </button>

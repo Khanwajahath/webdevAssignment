@@ -5,7 +5,7 @@ export   function RequestQuote() {
     <section className="py-20 bg-white" id="touch">
       <div className="max-w-7xl mx-auto px-6">
         
-        {/* Heading */}
+       
         <div className="text-center mb-14">
           <p className="text-green-600 font-semibold uppercase tracking-wide">
             Get In Touch
@@ -18,10 +18,10 @@ export   function RequestQuote() {
           </p>
         </div>
 
-        {/* Layout */}
+         
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           
-          {/* Form */}
+       
           <div className="lg:col-span-2 bg-white rounded-2xl p-8 border hover:shadow-2xl transition-all duration-300">
             <form className="grid grid-cols-1 md:grid-cols-2 gap-6">
               
@@ -104,7 +104,7 @@ export   function RequestQuote() {
             </form>
           </div>
 
-          {/* Contact Info Card */}
+        
           <div className="bg-gradient-to-b from-green-600 to-emerald-700 text-white rounded-2xl p-8 shadow-xl">
             <h3 className="text-xl font-bold mb-6">Contact Information</h3>
 

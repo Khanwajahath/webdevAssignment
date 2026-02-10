@@ -21,19 +21,19 @@ export function Header(){
             </div>
          </div>
          <div className="flex justify-between gap-2">
-<div className="flex items-center gap-1">
-  {sections.map((item, idx) => (
-    <a
-      key={item}
-      href={`#${ids[idx]}`}
-      className="no-underline text-gray-700 px-2 py-1 rounded-md 
-                 hover:text-green-600 hover:bg-green-100 
-                 transition-colors " style={{textDecoration:"none",color:"grey"}}
-    >
-      {item}
-    </a>
-  ))}
-</div>
+            <div className="flex items-center gap-1">
+            {sections.map((item, idx) => (
+                <a
+                key={item}
+                href={`#${ids[idx]}`}
+                className="no-underline text-gray-700 px-2 py-1 rounded-md 
+                            hover:text-green-600 hover:bg-green-100 
+                            transition-colors " style={{textDecoration:"none",color:"grey"}}
+                >
+                {item}
+                </a>
+            ))}
+            </div>
 
          </div>
          <div className="content-center align-middle">

@@ -20,21 +20,20 @@ export   function Dealer() {
             key={item.id}
             className="group rounded-2xl border bg-white shadow-sm hover:shadow-lg transition overflow-hidden"
           >
-            {/* Image */}
+       
             <div className="relative h-44 overflow-hidden">
               <img
                 src={item.image}
                 alt={item.title}
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
-
-              {/* Year badge */}
+ 
               <span className="absolute right-3 top-3 rounded-full bg-white px-2 py-0.5 text-xs font-medium shadow">
                 {item.year}
               </span>
             </div>
 
-            {/* Content */}
+      
             <div className="p-4 space-y-2">
               <div className="flex items-center gap-2">
                 <span className="inline-flex h-6 w-6 items-center justify-center rounded-full   text-green-400 text-xs">
