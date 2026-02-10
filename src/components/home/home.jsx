@@ -3,21 +3,21 @@
 export   function Home() {
   const slides = [
     {
-      image: "../../public/b.jpg",
+      image: "/b.jpg",
       title: "High-Performance Batteries",
       desc: "Long Lasting Power Storage with advanced Technology",
       cta1: "Get Best Prices",
       cta2: "View Products",
     },
     {
-      image: "../../public/inverters.jpg",
+      image: "/inverters.jpg",
       title: "Industrial Inverters",
       desc: "Industrial Inverters",
       cta1: "Get Best Prices",
       cta2: "View Products",
     },
     {
-      image: "../../public/solar.jpg",
+      image: "/solar.jpg",
       title: "Premimum Solar Solutions",
       desc: "Premimum Solar Solutions",
       cta1: "Get Best Prices",

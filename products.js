@@ -4,7 +4,7 @@ export const products = [
     title: "Inverters",
     description: "Pure sine wave inverters for seamless power backup",
     image:
-      "./public/1.jfif",
+      "/1.jfif",
     items: [
       "Home Inverter 850VA",
       "Home Inverter 1050VA",
@@ -18,7 +18,7 @@ export const products = [
     title: "Batteries",
     description: "Long-lasting tubular batteries with superior performance",
     image:
-      "./public/6.jfif",
+      "/6.jfif",
     items: [
       "Tubular Battery 150Ah",
       "Tubular Battery 180Ah",
@@ -32,7 +32,7 @@ export const products = [
     title: "UPS Systems",
     description: "Enterprise-grade uninterrupted power supply solutions",
     image:
-      "./public/3.jfif",
+      "/3.jfif",
     items: [
       "Online UPS 1KVA",
       "Online UPS 3KVA",
@@ -46,7 +46,7 @@ export const products = [
     title: "Solar Panels",
     description: "High-efficiency photovoltaic panels for maximum energy harvest",
     image:
-      "./public/2.jfif",
+      "/2.jfif",
     items: [
       "Mono PERC Panel 440W",
       "Poly Solar Panel 330W",
@@ -60,7 +60,7 @@ export const products = [
     title: "Solar Inverters",
     description: "Smart inverters for optimal solar energy conversion",
     image:
-       "./public/5.jfif",
+       "/5.jfif",
     items: [
       "On Grid Inverter 3KW",
       "Off Grid Inverter 5KW",
@@ -74,7 +74,7 @@ export const products = [
     title: "Lithium Battery",
     description: "Next-generation lithium storage for modern energy needs",
     image:
-       "./public/4.jfif",
+       "/4.jfif",
     items: [
       "LiFePO4 48V 100Ah",
       "Lithium Pack 24V 200Ah",
