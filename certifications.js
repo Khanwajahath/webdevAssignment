@@ -5,7 +5,7 @@ export const certifications = [
     description:
       "Quality Management System Certification ensuring highest standards in manufacturing",
     image:
-      "./public/images.jfif",
+      "/images.jfif",
     year: "2024",
   },
   {
@@ -41,7 +41,7 @@ export const certifications = [
     description:
       "Awarded as one of the top power equipment manufacturers in North India",
     image:
-      "./public/download.jfif",
+      "/download.jfif",
     year: "2023",
   },
   {
